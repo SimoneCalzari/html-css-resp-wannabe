@@ -133,3 +133,41 @@ img {
         width: 100%;
     }
  }
+ @media screen and (max-width: 480px) {
+    .row {
+        display: block;
+    }
+
+    .lessons .col {
+        width: 100%;
+    }
+
+    .lessons .col .card {
+        margin-bottom: 50px;
+    }
+
+    .steps .col {
+        width: 100%;
+    }
+
+    .steps .col:not(:last-child) {
+        margin-bottom: 3rem;
+    }
+
+    .steps {
+        margin-bottom: 0;
+    }
+
+    .why-us .col {
+        width: 100%;
+    }
+    .why-us {
+        background-color: #222222;
+        margin-bottom: 0px;
+        padding: 3rem 0;
+    }
+    .why-us li:last-child {
+        margin-bottom: 0;
+    }
+ }
+
